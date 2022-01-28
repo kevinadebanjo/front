@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title> CSS Demo</title>
+
+<!--google CSS-->
+<link rel="stylesheet" type="text/css" href="externalcss/mybg.css"/>
+
+</head>
+<body>
+
+<h1>This Is The Heading</h1>
+
+
+<p>my name is muyiwa</p>
+
+<!-- banner -->
+<div id="banner">
+
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

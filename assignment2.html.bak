@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+
+</head>
+<body bgcolor='grey'>
+<p style='margin:10px; color:white'><a href='project.html'>MENU</a></p>
+<p style='margin:10px; color:white'><a href='boxmodel.html'>About Us</a></p>
+
+
+<form action='' method=''>
+<p>
+    <label for="fullname">Fullname</label>
+    <input type='text' name='fullname' id='fullname'/><br>
+</p>
+
+<p>
+<label>Email address</label>
+<input type='email' name='Email address'/>
+</p>
+
+<p>
+<label for='gender1'>Male</label>
+<input type='radio' name='gender' id='gender1'/>
+
+<label for='gender2'>Female</label>
+<input type='radio' name='gender' id='gender2' value='female'/>
+
+<label for='gender3'>others</label>
+<input type='radio' name='gender' id='gender3' value='others' checked />
+
+</p>
+<p>
+<label>Thoughts About Bluefield</label>
+<textarea name='Thoughts About Bluefield' rows='1' cols='10'></textarea>
+</p>
+<p>
+<label>Country</label>
+<select name='Country'>
+<option value='Usa'>Usa</option>
+<option value='Canada'>Canada</option>
+<option value='Ghana'>Ghana</option>
+<option value='Mali'>Nigeria</option>
+</select>
+
+</p>
+<p>
+    feedback<br>
+ 
+ <label for='feed1'></label> 
+ <input type='checkbox' name='feed1' id='feed1' value='via phone call'/>via phone call<br>
+	
+<label for='feed2'></label> 
+ <input type='checkbox' name='feed2' id='feed2' value='fax'/>fax
+	
+
+<label for='feed3'></label> 
+ <input type='checkbox' name='feed3' id='feed3' value='email address'/>email address
+
+<label for='feed4'></label> 
+ <input type='checkbox' name='feed4' id='feed4' value='Sms'/>Sms
+ 
+</p>
+<input type='Submit' name='Submit' value='Submit'/>
+
+<input type='Reset' name='Reset' value='Reset'/>
+	
+</form>
+
+</body>
+</html>
